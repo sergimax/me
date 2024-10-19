@@ -1,0 +1,9 @@
+name: test
+run-name: test run name
+on: [push]
+jobs:
+  First-Job:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Started from ${{ github.event_name }} on ${{ runner.os }}"
+      - run: echo "${{ github.repository }} / ${{github.ref}}"
