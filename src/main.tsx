@@ -3,13 +3,20 @@ import ReactDOM from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { App } from "./app";
 import "./index.css";
+import { Home } from "./client/view/home";
+import { Error } from "./client/view/error";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App />,
-    // errorElement: <></>,
-    // children: <></>
+    errorElement: <Error/>,
+    children: [
+      {
+        path: "home",
+        element: <Home/>
+      },
+    ],
   },
 ]);
 
