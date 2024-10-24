@@ -1,6 +1,12 @@
-name: test
+name: Temporary main workflow
 run-name: test run name
-on: [push]
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
 jobs:
   First-Job:
     runs-on: ubuntu-latest

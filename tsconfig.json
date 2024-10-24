@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+      "module": "ES2022",
+      "noImplicitAny": true,
+      "removeComments": true,
+      "preserveConstEnums": true,
+    //   "outFile": "../../built/local/tsc.js",
+      "sourceMap": true,
+      "strict": true,
+      "noUnusedLocals": true,
+      "jsx": "react-jsx",
+      "allowSyntheticDefaultImports": true,
+      "moduleResolution": "bundler"
+    },
+    "include": ["src/**/*"],
+    "exclude": ["**/*.spec.ts", "node_modules"]
+  }
