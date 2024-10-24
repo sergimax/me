@@ -11,6 +11,16 @@ Currently, two official plugins are available:
 
 
 ## TODO's:
+- [ ] basic layout
+- [ ] components
+    - [ ] contact
+    - [ ] header
+    - [ ] footer
+    - [ ] tiles:
+        - [ ] instrument
+        - [ ] work
+        - [ ] education
+        - [ ] project
 - [ ] pages
     - [ ] about
         - [ ] CVs
